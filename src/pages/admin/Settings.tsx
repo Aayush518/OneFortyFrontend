@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useStore } from '@/lib/store';
 import { Save, Settings as SettingsIcon, Clock, Bell, Lock, Globe } from 'lucide-react';
 import { cn } from '@/lib/utils';
